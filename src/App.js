@@ -1,23 +1,11 @@
-import logo from './logo.svg';
+import React from 'react';
+import Email from '../src/component/email'; // Assuming the component is named Email, capitalize for component naming conventions
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Email /> {/* Use the Email component here */}
     </div>
   );
 }
